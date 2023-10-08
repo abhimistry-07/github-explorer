@@ -6,7 +6,7 @@ import FollowersList from "./FollowersList";
 import "../styles/UserInput.css";
 
 function UserInput() {
-  const [userName, setUserName] = useState("abhimistry-07");
+  const [userName, setUserName] = useState("");
   const [showRepo, setShowRepo] = useState(false);
   const [showFollower, setShowFollower] = useState(false);
   const dispatch = useDispatch();
