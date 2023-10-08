@@ -1,0 +1,100 @@
+/* UserInput.css */
+
+/* Container for the entire UserInput component */
+div {
+    text-align: center;
+    margin: 20px auto;
+    /* max-width: 400px; */
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Styling for the user information section */
+div>p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Styling for the buttons */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the RepositoryList and FollowersList sections */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Styling for the user avatar image */
+img {
+    border-radius: 50%;
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border: 3px solid #007bff;
+}
+
+/* Hide the repositories button */
+button:nth-child(3) {
+    display: none;
+}

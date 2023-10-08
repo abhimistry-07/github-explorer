@@ -1,0 +1,39 @@
+.follower-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: rgb(225, 206, 206);
+}
+
+.follower-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.follower-card:hover {
+    transform: translateY(-5px);
+}
+
+.follower-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.follower-info {
+    padding: 10px;
+}
+
+.follower-info h3 {
+    margin: 0;
+}
+
+.follower-info p {
+    margin: 5px 0;
+}
